@@ -20,7 +20,8 @@ After necessary information (dates of reviews, ratings, reviews, headlines of re
 
 The package `texthero` was used to prepare the text for analysis, and `nltk` was used to automatically analyze the text and derive the sentiment behind the text. As the show is around magic, some words such as 'creepy' and 'mad' had to be given a different score so the sentiment analyzer "Vader" didn't misinterpret the review. Some other words were given different scores to ensure reviews were classified as maximally accurate as possible.
 
-!['Dataframe after cleaning and processing](attachment:image-2.png)
+<img width="1080" height="180" alt="Dataframe after cleaning and processing" src="https://github.com/AksharGoyal/WandaVision-reviews-analysis/assets/38995624/a8fb9a89-ee9c-4a24-a7c7-9507c1e5965d">
+
 
 After the data was ready, the reviews were visualized with `texthero` and`plotly` based on what words were frequently used to describe the show or how the ratings and sentiments progressed over the release of the show.  
 
