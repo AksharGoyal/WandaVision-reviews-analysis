@@ -1,0 +1,9 @@
+requests==2.31.0
+tqdm==4.66.1
+selenium==4.15.2
+pandas==2.1.1
+texthero
+emoji==2.9.0
+re==2.2.1
+nbformat
+plotly==5.9.0
