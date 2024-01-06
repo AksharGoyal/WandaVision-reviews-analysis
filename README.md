@@ -1,5 +1,7 @@
 # StackUp Bounty Project: WandaVision reviews analysis  
 
+Before running the project, make sure to run `pip install -r requirements.txt` in the terminal so that you have all the necessary packages.  
+
 This is a Data Analysis project that uses data science software such as Pandas and NLTK to clean and prepare the data for analysis of the sentiments behind the reviews.  
 
 For StackUp's Sentiment Analysis Bounty, the show WandaVision (the very first TV show in the MCU franchise on Disney+) was picked to have its reviews analyzed. To get the ball running, the HTML document of the review had to be studied to get an idea of how to extract maximum reviews because, by default, reviews would stop being extracted before the Load More button. Using Selenium's webdriver, it was possible to click on Load More button automatically to get "all" the necessary information. The below code shows how the code helped in unfolding the whole webpage:
